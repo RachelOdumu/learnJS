@@ -95,3 +95,17 @@ for(var num = 12; num >= 1; num--)
 }
 
 console.log(solution);
+
+/*
+ * Programming Quiz: Factorials (4-7)
+ *
+ * Write a for loop that prints out the factorial of the number 12
+ *
+
+var solution = 1;
+
+for(var num = 1; num <= 12; num++)
+{
+    solution *= num;
+}
+console.log(solution);
