@@ -55,5 +55,18 @@ for(var x = 9; x >=1; x--)
     console.log("hello " + x);
 }
 
+/*
+ * Programming Quiz: Fix the Error 1 (4-5)
+ */
+
+// fix the for loop - loop should the print the numbers 5 through 9.
+/**for (x < 10; x++) {
+    console.log(x);
+}**/
+
+for (var x = 5; x < 10; x++)
+{
+  console.log(x);
+}
 
 
