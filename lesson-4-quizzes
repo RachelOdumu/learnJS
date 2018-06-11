@@ -83,3 +83,15 @@ for (var k = 0; k < 200; k++) //semicolons were missing in for loop declaration
   console.log(k);
 }
 
+/*
+ * Programming Quiz: Factorials (4-7)
+ */
+
+var solution = 1;
+
+for(var num = 12; num >= 1; num--)
+{
+    solution = num * solution;
+}
+
+console.log(solution);
